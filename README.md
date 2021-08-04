@@ -30,9 +30,9 @@ We have two options:
    ("external CSS").
 
 In our case, we want to provide a link to our style sheet, instead of writing
-all of our CSS code directly in the  `<style>` tag. This allows us to only have
+all of our CSS code directly in the `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
-element on every page.  A common workflow is to see developers work on CSS
+element on every page. A common workflow is to see developers work on CSS
 inside of the `<style>` tag until their styling is done. At that point they
 move it to their external file and remove the `<style>` element from the HTML
 page. Feel free to try it out!
@@ -41,8 +41,8 @@ In `index.html`, provide a `<link>` tag which correctly sources the CSS file
 located in this directory. The `<link>` tag will link to our file with an
 `href` attribute, like so:
 
-```HTML
-<link rel="stylesheet" href="relative path to CSS file">
+```html
+<link rel="stylesheet" href="relative path to CSS file" />
 ```
 
 The `href` attribute should point to the file `style.css` which is located in
@@ -59,8 +59,8 @@ write `href="./style.css"` we're saying: "From the directory in which I, the
 `index.html` file live, look for a file called `style.css` and use it. This
 pattern will help you and other developers remove any possible confusion.
 
-```HTML
-<link rel="stylesheet" href="relative path to CSS file">
+```html
+<link rel="stylesheet" href="relative path to CSS file" />
 ```
 
 Links to style sheets should go at the end of the `<head>` section! Make sure you
@@ -91,7 +91,6 @@ changed:
 Run `learn test` to test your work and `learn submit` once you've passed all the
 tests.
 
-
 ## Conclusion
 
 CSS allows us to easily separate our 'styling' logic into separate files that
@@ -99,10 +98,9 @@ follow the 'cascading' rule set. This enables us to keep our HTML clean and
 simple to read, without sacrificing the customization that we have come to
 expect on websites.
 
-
 ## Resources
+
 - [W3 Introduction to CSS](https://www.w3schools.com/Css/css_intro.asp)
 
 [unstyled]: https://curriculum-content.s3.amazonaws.com/web-development/unstyled-codepen.jpeg
 [styled]: https://curriculum-content.s3.amazonaws.com/web-development/styled-intro-to-css.png
-
