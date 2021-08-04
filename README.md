@@ -63,9 +63,10 @@ pattern will help you and other developers remove any possible confusion.
 <link rel="stylesheet" href="relative path to CSS file" />
 ```
 
-Links to style sheets should go at the end of the `<head>` section! Make sure you
-provide a _relative_ path to the style sheet.
-Hint: Open `index.html` in the browser. You can test whether your link is working or not by the color of your headline. If it's red, it's working! If it's black, keep going - you'll get it.
+Links to style sheets should go at the end of the `<head>` section! Make sure
+you provide a _relative_ path to the style sheet. Hint: Open `index.html` in the
+browser. You can test whether your link is working or not by the color of your
+headline. If it's red, it's working! If it's black, keep going - you'll get it.
 
 ## Implement CSS Declarations
 
@@ -75,8 +76,8 @@ document! First, open `index.html` in the browser to get a good idea of what
 
 What we would really like is [something a little more jazzed up][styled]! Let's
 work towards that. Set the following _properties_ to specific _values_. Make
-sure to, after each update, look at `index.html` in the browser to see how it has
-changed:
+sure to, after each update, look at `index.html` in the browser to see how it
+has changed:
 
 - Set the `background` of the `<body>` element (whole document) to `#00b3e6` (light blue)
 - Set the `<div>` elements:
